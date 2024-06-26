@@ -1,0 +1,3 @@
+import qrcode as qr
+img= qr.make("https://www.youtube.com/@joga_boga3229")
+img.save("joga_boga@youtube.png")
